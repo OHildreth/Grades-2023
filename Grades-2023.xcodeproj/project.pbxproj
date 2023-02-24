@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C03DF9B929A6CC6D00A4F9FE /* Grades_2023App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03DF9B829A6CC6D00A4F9FE /* Grades_2023App.swift */; };
+		C03DF9BB29A6CC6D00A4F9FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03DF9BA29A6CC6D00A4F9FE /* ContentView.swift */; };
+		C03DF9BD29A6CC6E00A4F9FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C03DF9BC29A6CC6E00A4F9FE /* Assets.xcassets */; };
+		C03DF9C029A6CC6E00A4F9FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C03DF9BF29A6CC6E00A4F9FE /* Preview Assets.xcassets */; };
+		C03DF9C929A6CFD900A4F9FE /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03DF9C829A6CFD900A4F9FE /* Student.swift */; };
+		C03DF9CB29A6D18100A4F9FE /* AssignmentScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03DF9CA29A6D18100A4F9FE /* AssignmentScore.swift */; };
+		C03DF9CD29A6D2D800A4F9FE /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03DF9CC29A6D2D800A4F9FE /* Assignment.swift */; };
+		C03DF9CF29A6D40700A4F9FE /* AssignmentGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03DF9CE29A6D40700A4F9FE /* AssignmentGroup.swift */; };
+		C08C135929A96DB30041DA95 /* CourseResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08C135829A96DB30041DA95 /* CourseResults.swift */; };
+		C08C135C29A96E8C0041DA95 /* TestDataExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08C135B29A96E8C0041DA95 /* TestDataExtensions.swift */; };
+		C08C135E29A96E9F0041DA95 /* LetterGrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08C135D29A96E9F0041DA95 /* LetterGrade.swift */; };
+		C08C136129A96F1F0041DA95 /* GradesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08C136029A96F1F0041DA95 /* GradesViewModel.swift */; };
+		C08C136329A971680041DA95 /* StudentTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08C136229A971680041DA95 /* StudentTableView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C03DF9B529A6CC6D00A4F9FE /* Grades-2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grades-2023.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C03DF9B829A6CC6D00A4F9FE /* Grades_2023App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grades_2023App.swift; sourceTree = "<group>"; };
+		C03DF9BA29A6CC6D00A4F9FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C03DF9BC29A6CC6E00A4F9FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C03DF9BF29A6CC6E00A4F9FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C03DF9C129A6CC6E00A4F9FE /* Grades_2023.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Grades_2023.entitlements; sourceTree = "<group>"; };
+		C03DF9C829A6CFD900A4F9FE /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		C03DF9CA29A6D18100A4F9FE /* AssignmentScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentScore.swift; sourceTree = "<group>"; };
+		C03DF9CC29A6D2D800A4F9FE /* Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
+		C03DF9CE29A6D40700A4F9FE /* AssignmentGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentGroup.swift; sourceTree = "<group>"; };
+		C08C135829A96DB30041DA95 /* CourseResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseResults.swift; sourceTree = "<group>"; };
+		C08C135B29A96E8C0041DA95 /* TestDataExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestDataExtensions.swift; sourceTree = "<group>"; };
+		C08C135D29A96E9F0041DA95 /* LetterGrade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LetterGrade.swift; sourceTree = "<group>"; };
+		C08C136029A96F1F0041DA95 /* GradesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradesViewModel.swift; sourceTree = "<group>"; };
+		C08C136229A971680041DA95 /* StudentTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentTableView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C03DF9B229A6CC6D00A4F9FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C03DF9AC29A6CC6D00A4F9FE = {
+			isa = PBXGroup;
+			children = (
+				C03DF9B729A6CC6D00A4F9FE /* Grades-2023 */,
+				C03DF9B629A6CC6D00A4F9FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C03DF9B629A6CC6D00A4F9FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C03DF9B529A6CC6D00A4F9FE /* Grades-2023.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C03DF9B729A6CC6D00A4F9FE /* Grades-2023 */ = {
+			isa = PBXGroup;
+			children = (
+				C03DF9B829A6CC6D00A4F9FE /* Grades_2023App.swift */,
+				C03DF9BA29A6CC6D00A4F9FE /* ContentView.swift */,
+				C08C136229A971680041DA95 /* StudentTableView.swift */,
+				C08C135F29A96F0E0041DA95 /* View Models */,
+				C03DF9C729A6CE7F00A4F9FE /* Data Models */,
+				C03DF9BC29A6CC6E00A4F9FE /* Assets.xcassets */,
+				C03DF9C129A6CC6E00A4F9FE /* Grades_2023.entitlements */,
+				C03DF9BE29A6CC6E00A4F9FE /* Preview Content */,
+			);
+			path = "Grades-2023";
+			sourceTree = "<group>";
+		};
+		C03DF9BE29A6CC6E00A4F9FE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C03DF9BF29A6CC6E00A4F9FE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C03DF9C729A6CE7F00A4F9FE /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				C08C135829A96DB30041DA95 /* CourseResults.swift */,
+				C08C135A29A96E730041DA95 /* TestData */,
+				C03DF9C829A6CFD900A4F9FE /* Student.swift */,
+				C08C135D29A96E9F0041DA95 /* LetterGrade.swift */,
+				C03DF9CA29A6D18100A4F9FE /* AssignmentScore.swift */,
+				C03DF9CC29A6D2D800A4F9FE /* Assignment.swift */,
+				C03DF9CE29A6D40700A4F9FE /* AssignmentGroup.swift */,
+			);
+			path = "Data Models";
+			sourceTree = "<group>";
+		};
+		C08C135A29A96E730041DA95 /* TestData */ = {
+			isa = PBXGroup;
+			children = (
+				C08C135B29A96E8C0041DA95 /* TestDataExtensions.swift */,
+			);
+			path = TestData;
+			sourceTree = "<group>";
+		};
+		C08C135F29A96F0E0041DA95 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				C08C136029A96F1F0041DA95 /* GradesViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C03DF9B429A6CC6D00A4F9FE /* Grades-2023 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C03DF9C429A6CC6E00A4F9FE /* Build configuration list for PBXNativeTarget "Grades-2023" */;
+			buildPhases = (
+				C03DF9B129A6CC6D00A4F9FE /* Sources */,
+				C03DF9B229A6CC6D00A4F9FE /* Frameworks */,
+				C03DF9B329A6CC6D00A4F9FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Grades-2023";
+			productName = "Grades-2023";
+			productReference = C03DF9B529A6CC6D00A4F9FE /* Grades-2023.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C03DF9AD29A6CC6D00A4F9FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C03DF9B429A6CC6D00A4F9FE = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = C03DF9B029A6CC6D00A4F9FE /* Build configuration list for PBXProject "Grades-2023" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C03DF9AC29A6CC6D00A4F9FE;
+			productRefGroup = C03DF9B629A6CC6D00A4F9FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C03DF9B429A6CC6D00A4F9FE /* Grades-2023 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C03DF9B329A6CC6D00A4F9FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C03DF9C029A6CC6E00A4F9FE /* Preview Assets.xcassets in Resources */,
+				C03DF9BD29A6CC6E00A4F9FE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C03DF9B129A6CC6D00A4F9FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C08C135929A96DB30041DA95 /* CourseResults.swift in Sources */,
+				C03DF9BB29A6CC6D00A4F9FE /* ContentView.swift in Sources */,
+				C08C136129A96F1F0041DA95 /* GradesViewModel.swift in Sources */,
+				C08C136329A971680041DA95 /* StudentTableView.swift in Sources */,
+				C03DF9CB29A6D18100A4F9FE /* AssignmentScore.swift in Sources */,
+				C03DF9C929A6CFD900A4F9FE /* Student.swift in Sources */,
+				C03DF9CD29A6D2D800A4F9FE /* Assignment.swift in Sources */,
+				C08C135E29A96E9F0041DA95 /* LetterGrade.swift in Sources */,
+				C08C135C29A96E8C0041DA95 /* TestDataExtensions.swift in Sources */,
+				C03DF9CF29A6D40700A4F9FE /* AssignmentGroup.swift in Sources */,
+				C03DF9B929A6CC6D00A4F9FE /* Grades_2023App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C03DF9C229A6CC6E00A4F9FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C03DF9C329A6CC6E00A4F9FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C03DF9C529A6CC6E00A4F9FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Grades-2023/Grades_2023.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Grades-2023/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HRG.Grades-2023";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C03DF9C629A6CC6E00A4F9FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Grades-2023/Grades_2023.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Grades-2023/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.HRG.Grades-2023";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C03DF9B029A6CC6D00A4F9FE /* Build configuration list for PBXProject "Grades-2023" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C03DF9C229A6CC6E00A4F9FE /* Debug */,
+				C03DF9C329A6CC6E00A4F9FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C03DF9C429A6CC6E00A4F9FE /* Build configuration list for PBXNativeTarget "Grades-2023" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C03DF9C529A6CC6E00A4F9FE /* Debug */,
+				C03DF9C629A6CC6E00A4F9FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C03DF9AD29A6CC6D00A4F9FE /* Project object */;
+}
