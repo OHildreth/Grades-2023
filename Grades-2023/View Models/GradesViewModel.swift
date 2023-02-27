@@ -12,10 +12,36 @@ class GradesViewModel: ObservableObject {
     
     var students: [Student] = []
     
+    @Published var sortOrder: [KeyPathComparator<Student>] = [
+        .init(\.name, order: .forward)] {
+            didSet {
+                updateState()
+            }
+        }
+    
+    
+    init() {
+        setNotifications()
+        updateState()
+    }
+    
     // MARK: - Update State
     private func updateState() {
-        self.students = Array(courseResults.students.values)
+        self.students = Array(courseResults.students.values).sorted(using: sortOrder)
     }
     
     
+}
+
+extension GradesViewModel {
+    private func setNotifications() {
+        NotificationCenter.default.addObserver(forName: .StudentsDidChange,
+                                               object: nil,
+                                               queue: nil,
+                                               using: studentsDidChangeResponse(_:))
+    }
+    
+    private func studentsDidChangeResponse(_ notification: Notification) {
+        updateState()
+    }
 }

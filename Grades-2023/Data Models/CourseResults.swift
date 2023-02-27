@@ -8,7 +8,17 @@
 import Foundation
 
 class CourseResults: ObservableObject {
-    var students: [Student.ID : Student] = [:]
+    var students: [Student.ID : Student] = [:] {
+        didSet {
+            sendStudentsDidChangeNotification()
+        }
+        
+    }
     
     var assignmentGroups: [AssignmentGroup.ID : AssignmentGroup] = [:]
+    
+    
 }
+
+
+

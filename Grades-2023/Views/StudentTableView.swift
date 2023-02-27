@@ -10,12 +10,17 @@ import SwiftUI
 struct StudentTableView: View {
     var students: [Student]
     
+    @Binding var sortOrder: [KeyPathComparator<Student>]
+    
     var body: some View {
-        Table(students) {
+        Table(students, sortOrder: $sortOrder) {
             TableColumn("Student Name", value: \.name)
             TableColumn("Student ID", value: \.studentID)
-            TableColumn("Overall Score") {
-                Text(String($0.overallScore))
+            TableColumn("Overall Score", value: \.overallScore) {
+                Text(String(format: "%.2f", $0.overallScore))
+            }
+            TableColumn("Letter Grade") {
+                Text($0.letterGrade.rawValue)
             }
             
         }
@@ -23,11 +28,13 @@ struct StudentTableView: View {
 }
 
 
-
+/*
  struct StudentTableView_Previews: PreviewProvider {
      static var previews: some View {
          StudentTableView(students: [])
      }
  }
+ */
+
  
 

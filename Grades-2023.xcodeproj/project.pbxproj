@@ -15,6 +15,7 @@
 		C03DF9CB29A6D18100A4F9FE /* AssignmentScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03DF9CA29A6D18100A4F9FE /* AssignmentScore.swift */; };
 		C03DF9CD29A6D2D800A4F9FE /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03DF9CC29A6D2D800A4F9FE /* Assignment.swift */; };
 		C03DF9CF29A6D40700A4F9FE /* AssignmentGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03DF9CE29A6D40700A4F9FE /* AssignmentGroup.swift */; };
+		C0624CC229AD64C200D10675 /* CourseResults_Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0624CC129AD64C200D10675 /* CourseResults_Notifications.swift */; };
 		C08C135929A96DB30041DA95 /* CourseResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08C135829A96DB30041DA95 /* CourseResults.swift */; };
 		C08C135C29A96E8C0041DA95 /* TestDataExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08C135B29A96E8C0041DA95 /* TestDataExtensions.swift */; };
 		C08C135E29A96E9F0041DA95 /* LetterGrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08C135D29A96E9F0041DA95 /* LetterGrade.swift */; };
@@ -33,6 +34,7 @@
 		C03DF9CA29A6D18100A4F9FE /* AssignmentScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentScore.swift; sourceTree = "<group>"; };
 		C03DF9CC29A6D2D800A4F9FE /* Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
 		C03DF9CE29A6D40700A4F9FE /* AssignmentGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentGroup.swift; sourceTree = "<group>"; };
+		C0624CC129AD64C200D10675 /* CourseResults_Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseResults_Notifications.swift; sourceTree = "<group>"; };
 		C08C135829A96DB30041DA95 /* CourseResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseResults.swift; sourceTree = "<group>"; };
 		C08C135B29A96E8C0041DA95 /* TestDataExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestDataExtensions.swift; sourceTree = "<group>"; };
 		C08C135D29A96E9F0041DA95 /* LetterGrade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LetterGrade.swift; sourceTree = "<group>"; };
@@ -72,9 +74,9 @@
 			children = (
 				C03DF9B829A6CC6D00A4F9FE /* Grades_2023App.swift */,
 				C03DF9BA29A6CC6D00A4F9FE /* ContentView.swift */,
-				C08C136229A971680041DA95 /* StudentTableView.swift */,
-				C08C135F29A96F0E0041DA95 /* View Models */,
 				C03DF9C729A6CE7F00A4F9FE /* Data Models */,
+				C08C135F29A96F0E0041DA95 /* View Models */,
+				C0624CC329AD685E00D10675 /* Views */,
 				C03DF9BC29A6CC6E00A4F9FE /* Assets.xcassets */,
 				C03DF9C129A6CC6E00A4F9FE /* Grades_2023.entitlements */,
 				C03DF9BE29A6CC6E00A4F9FE /* Preview Content */,
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				C08C135829A96DB30041DA95 /* CourseResults.swift */,
+				C0624CC129AD64C200D10675 /* CourseResults_Notifications.swift */,
 				C08C135A29A96E730041DA95 /* TestData */,
 				C03DF9C829A6CFD900A4F9FE /* Student.swift */,
 				C08C135D29A96E9F0041DA95 /* LetterGrade.swift */,
@@ -102,6 +105,14 @@
 				C03DF9CE29A6D40700A4F9FE /* AssignmentGroup.swift */,
 			);
 			path = "Data Models";
+			sourceTree = "<group>";
+		};
+		C0624CC329AD685E00D10675 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C08C136229A971680041DA95 /* StudentTableView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		C08C135A29A96E730041DA95 /* TestData */ = {
@@ -198,6 +209,7 @@
 				C03DF9C929A6CFD900A4F9FE /* Student.swift in Sources */,
 				C03DF9CD29A6D2D800A4F9FE /* Assignment.swift in Sources */,
 				C08C135E29A96E9F0041DA95 /* LetterGrade.swift in Sources */,
+				C0624CC229AD64C200D10675 /* CourseResults_Notifications.swift in Sources */,
 				C08C135C29A96E8C0041DA95 /* TestDataExtensions.swift in Sources */,
 				C03DF9CF29A6D40700A4F9FE /* AssignmentGroup.swift in Sources */,
 				C03DF9B929A6CC6D00A4F9FE /* Grades_2023App.swift in Sources */,

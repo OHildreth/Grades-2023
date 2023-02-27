@@ -15,7 +15,8 @@ struct ContentView: View {
             Text("Drop Files View")
             Divider()
             HSplitView {
-                StudentTableView(students: gradesViewModel.students)
+                StudentTableView(students: gradesViewModel.students, sortOrder: $gradesViewModel.sortOrder)
+                    .frame(minHeight: 200.0)
                 Text("List with TextFields").frame(minWidth: 100, maxWidth: .infinity)
             }
         }
