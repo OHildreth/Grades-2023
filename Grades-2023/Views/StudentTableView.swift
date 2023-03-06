@@ -19,10 +19,9 @@ struct StudentTableView: View {
             TableColumn("Overall Score", value: \.overallScore) {
                 Text(String(format: "%.2f", $0.overallScore))
             }
-            TableColumn("Letter Grade") {
+            TableColumn("Letter Grade", value: \.letterGrade) {
                 Text($0.letterGrade.rawValue)
             }
-            
         }
     }
 }

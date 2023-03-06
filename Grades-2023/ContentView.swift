@@ -12,12 +12,13 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Text("Drop Files View")
+            DropFileView(url: $gradesViewModel.url)
             Divider()
             HSplitView {
                 StudentTableView(students: gradesViewModel.students, sortOrder: $gradesViewModel.sortOrder)
                     .frame(minHeight: 200.0)
-                Text("List with TextFields").frame(minWidth: 100, maxWidth: .infinity)
+                StudentsListView(students: $gradesViewModel.students)
+                    .frame(minWidth: 100, maxWidth: .infinity)
             }
         }
         .padding()

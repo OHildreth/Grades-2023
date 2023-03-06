@@ -10,7 +10,9 @@ import Foundation
 class GradesViewModel: ObservableObject {
     var courseResults = CourseResults(withTestData: true)
     
-    var students: [Student] = []
+    @Published var url: URL?
+    
+    @Published var students: [Student] = []
     
     @Published var sortOrder: [KeyPathComparator<Student>] = [
         .init(\.name, order: .forward)] {
